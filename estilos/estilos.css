@@ -1,0 +1,324 @@
+
+
+/*IMÁGENES*/
+
+.cabecera{
+
+    width: 100%;
+    height: 700px;
+}
+
+.image {
+    width: 50%; 
+    height: auto;
+  }
+
+
+
+
+
+/*FONDO*/
+
+body{
+
+    background-color: burlywood;
+}
+
+
+
+
+/*MENÚ NAVEGACIÓN*/
+
+nav ul{
+
+    list-style-type: none;  
+    padding: 30px;             
+    margin: 0;              
+    display: flex;   
+    justify-content: center; 
+}
+
+nav ul li {
+    margin-right: 20px;  /* Espacio entre cada elemento */
+    
+}
+
+nav ul li a {
+    text-decoration: none;  
+    color: brown;            
+    font-size: 40px;    
+        
+}
+
+
+
+/*TÍTULOS*/
+
+h1{
+
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+}
+
+h2{
+
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: black;
+
+}
+
+h3{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: black;
+
+
+}
+
+
+p{
+
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: black;
+
+}
+
+
+
+
+/*FORMULARIO*/
+
+legend{
+
+    font-size: 20px;
+}
+
+
+label{
+
+    font-size: 25px;
+
+}
+
+select, textarea {
+
+    width: 300px; 
+    padding: 8px;
+    margin-bottom: 15px; 
+}
+
+#nombre, #apellido, #fecha_nacimiento, #telefono, 
+#direccion, #email, #Fecha_llegada, #Fecha_salida{
+
+    width: 300px; 
+    padding: 8px;
+    margin-bottom: 15px;
+
+}
+
+.boton{
+
+    width: auto; 
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #45a049;
+
+
+}
+
+#numPersonas{
+
+    width: 40px; 
+    padding: 8px;
+    margin-bottom: 50px;
+
+}
+
+#condiciones {
+    width: auto; 
+    margin-right: 5px; 
+}
+
+#etiquetaObserva{
+
+    display: block;
+    margin-top: 20px;   
+    margin-bottom: 5px;
+
+}
+
+#observaciones {
+    margin-top: 10px;
+    margin-bottom: 20px;  
+}
+
+.iniciop{
+
+    text-align: center;
+}
+
+#arriba{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+
+}
+
+#topMulti{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+
+}
+
+#topDatos{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+
+}
+
+#topTurist{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+
+}
+
+#topTrad{
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: brown;
+}
+
+
+.enlaceArriba {
+    display: inline-block;  
+    margin-top: 60px;
+    margin-bottom: 60px;  
+    font-size: 40px; 
+    color: brown;  
+}
+
+
+
+
+
+
+/*DIV*/
+
+div {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    flex-direction: column;  /* Asegura que el contenido se apile verticalmente */
+  }
+
+
+  .padre{
+
+    display: flex; /* Usamos flexbox para alinear las imágenes */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva fila si no caben en la fila actual */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes */
+}
+
+  
+
+  .hijo{
+
+    display: flex; /* Activa el modo flexbox */
+    justify-content: space-between; 
+    gap: 10px; 
+    flex-direction: row;
+   
+
+    img{
+
+         width: 900px;
+         height: 600px;
+
+    }
+
+    video{
+
+        width: 900px;
+        height: 600px;
+    }
+
+ 
+  }
+
+
+  .turismo{
+
+    display: flex; /* Activa el modo flexbox */
+    justify-content: space-between; /* Espacio entre las imágenes, puedes cambiar a "center" o "flex-start" si prefieres otro alineamiento */
+    gap: 10px; 
+    flex-direction: row;
+
+        img{
+            width:900px;
+            height: 600px;
+        
+        }
+
+  }
+
+
+ /*footer*/
+
+ .contenedor{
+
+    background-color: rgb(210, 159, 91);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 5px 0;
+
+
+ }
+
+ .copyrigth{
+
+    margin-top: 20px;
+    font-size: 14px;
+    color: lightgray;
+ }
+
+ footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.enlaces, .contacto{
+
+font-size: 20px;
+
+}
